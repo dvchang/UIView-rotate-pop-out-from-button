@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BFCB0FF158D9135009AD5FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB0FE158D9135009AD5FD /* UIKit.framework */; };
+		6BFCB101158D9135009AD5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB100158D9135009AD5FD /* Foundation.framework */; };
+		6BFCB103158D9135009AD5FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB102158D9135009AD5FD /* CoreGraphics.framework */; };
+		6BFCB109158D9135009AD5FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCB107158D9135009AD5FD /* InfoPlist.strings */; };
+		6BFCB10B158D9135009AD5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCB10A158D9135009AD5FD /* main.m */; };
+		6BFCB10F158D9135009AD5FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCB10E158D9135009AD5FD /* AppDelegate.m */; };
+		6BFCB112158D9135009AD5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCB111158D9135009AD5FD /* ViewController.m */; };
+		6BFCB115158D9135009AD5FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCB113158D9135009AD5FD /* ViewController.xib */; };
+		6BFCB11D158D9136009AD5FD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB11C158D9136009AD5FD /* SenTestingKit.framework */; };
+		6BFCB11E158D9136009AD5FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB0FE158D9135009AD5FD /* UIKit.framework */; };
+		6BFCB11F158D9136009AD5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB100158D9135009AD5FD /* Foundation.framework */; };
+		6BFCB127158D9136009AD5FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCB125158D9136009AD5FD /* InfoPlist.strings */; };
+		6BFCB12A158D9136009AD5FD /* rotatePopOutfromButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCB129158D9136009AD5FD /* rotatePopOutfromButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BFCB120158D9136009AD5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFCB0F1158D9135009AD5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFCB0F9158D9135009AD5FD;
+			remoteInfo = rotatePopOutfromButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BFCB0FA158D9135009AD5FD /* rotatePopOutfromButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotatePopOutfromButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFCB0FE158D9135009AD5FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BFCB100158D9135009AD5FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BFCB102158D9135009AD5FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BFCB106158D9135009AD5FD /* rotatePopOutfromButton-Info.plist */ = {isa = PBXFileReference; path = "rotatePopOutfromButton-Info.plist"; sourceTree = "<group>"; };
+		6BFCB108158D9135009AD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BFCB10A158D9135009AD5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BFCB10C158D9135009AD5FD /* rotatePopOutfromButton-Prefix.pch */ = {isa = PBXFileReference; path = "rotatePopOutfromButton-Prefix.pch"; sourceTree = "<group>"; };
+		6BFCB10D158D9135009AD5FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BFCB10E158D9135009AD5FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BFCB110158D9135009AD5FD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6BFCB111158D9135009AD5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BFCB114158D9135009AD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6BFCB11B158D9136009AD5FD /* rotatePopOutfromButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotatePopOutfromButtonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFCB11C158D9136009AD5FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6BFCB124158D9136009AD5FD /* rotatePopOutfromButtonTests-Info.plist */ = {isa = PBXFileReference; path = "rotatePopOutfromButtonTests-Info.plist"; sourceTree = "<group>"; };
+		6BFCB126158D9136009AD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BFCB128158D9136009AD5FD /* rotatePopOutfromButtonTests.h */ = {isa = PBXFileReference; path = rotatePopOutfromButtonTests.h; sourceTree = "<group>"; };
+		6BFCB129158D9136009AD5FD /* rotatePopOutfromButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rotatePopOutfromButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BFCB0F7158D9135009AD5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFCB0FF158D9135009AD5FD /* UIKit.framework in Frameworks */,
+				6BFCB101158D9135009AD5FD /* Foundation.framework in Frameworks */,
+				6BFCB103158D9135009AD5FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFCB117158D9136009AD5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFCB11D158D9136009AD5FD /* SenTestingKit.framework in Frameworks */,
+				6BFCB11E158D9136009AD5FD /* UIKit.framework in Frameworks */,
+				6BFCB11F158D9136009AD5FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BFCB0EF158D9135009AD5FD = {
+			isa = PBXGroup;
+			children = (
+				6BFCB104158D9135009AD5FD /* rotatePopOutfromButton */,
+				6BFCB122158D9136009AD5FD /* rotatePopOutfromButtonTests */,
+				6BFCB0FD158D9135009AD5FD /* Frameworks */,
+				6BFCB0FB158D9135009AD5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BFCB0FB158D9135009AD5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB0FA158D9135009AD5FD /* rotatePopOutfromButton.app */,
+				6BFCB11B158D9136009AD5FD /* rotatePopOutfromButtonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFCB0FD158D9135009AD5FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB0FE158D9135009AD5FD /* UIKit.framework */,
+				6BFCB100158D9135009AD5FD /* Foundation.framework */,
+				6BFCB102158D9135009AD5FD /* CoreGraphics.framework */,
+				6BFCB11C158D9136009AD5FD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BFCB104158D9135009AD5FD /* rotatePopOutfromButton */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB10D158D9135009AD5FD /* AppDelegate.h */,
+				6BFCB10E158D9135009AD5FD /* AppDelegate.m */,
+				6BFCB110158D9135009AD5FD /* ViewController.h */,
+				6BFCB111158D9135009AD5FD /* ViewController.m */,
+				6BFCB113158D9135009AD5FD /* ViewController.xib */,
+				6BFCB105158D9135009AD5FD /* Supporting Files */,
+			);
+			path = rotatePopOutfromButton;
+			sourceTree = "<group>";
+		};
+		6BFCB105158D9135009AD5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB106158D9135009AD5FD /* rotatePopOutfromButton-Info.plist */,
+				6BFCB107158D9135009AD5FD /* InfoPlist.strings */,
+				6BFCB10A158D9135009AD5FD /* main.m */,
+				6BFCB10C158D9135009AD5FD /* rotatePopOutfromButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BFCB122158D9136009AD5FD /* rotatePopOutfromButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB128158D9136009AD5FD /* rotatePopOutfromButtonTests.h */,
+				6BFCB129158D9136009AD5FD /* rotatePopOutfromButtonTests.m */,
+				6BFCB123158D9136009AD5FD /* Supporting Files */,
+			);
+			path = rotatePopOutfromButtonTests;
+			sourceTree = "<group>";
+		};
+		6BFCB123158D9136009AD5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB124158D9136009AD5FD /* rotatePopOutfromButtonTests-Info.plist */,
+				6BFCB125158D9136009AD5FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BFCB0F9158D9135009AD5FD /* rotatePopOutfromButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFCB12D158D9136009AD5FD /* Build configuration list for PBXNativeTarget "rotatePopOutfromButton" */;
+			buildPhases = (
+				6BFCB0F6158D9135009AD5FD /* Sources */,
+				6BFCB0F7158D9135009AD5FD /* Frameworks */,
+				6BFCB0F8158D9135009AD5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rotatePopOutfromButton;
+			productName = rotatePopOutfromButton;
+			productReference = 6BFCB0FA158D9135009AD5FD /* rotatePopOutfromButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BFCB11A158D9136009AD5FD /* rotatePopOutfromButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFCB130158D9136009AD5FD /* Build configuration list for PBXNativeTarget "rotatePopOutfromButtonTests" */;
+			buildPhases = (
+				6BFCB116158D9136009AD5FD /* Sources */,
+				6BFCB117158D9136009AD5FD /* Frameworks */,
+				6BFCB118158D9136009AD5FD /* Resources */,
+				6BFCB119158D9136009AD5FD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFCB121158D9136009AD5FD /* PBXTargetDependency */,
+			);
+			name = rotatePopOutfromButtonTests;
+			productName = rotatePopOutfromButtonTests;
+			productReference = 6BFCB11B158D9136009AD5FD /* rotatePopOutfromButtonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BFCB0F1158D9135009AD5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "David Chang";
+			};
+			buildConfigurationList = 6BFCB0F4158D9135009AD5FD /* Build configuration list for PBXProject "rotatePopOutfromButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BFCB0EF158D9135009AD5FD;
+			productRefGroup = 6BFCB0FB158D9135009AD5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFCB0F9158D9135009AD5FD /* rotatePopOutfromButton */,
+				6BFCB11A158D9136009AD5FD /* rotatePopOutfromButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BFCB0F8158D9135009AD5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFCB109158D9135009AD5FD /* InfoPlist.strings in Resources */,
+				6BFCB115158D9135009AD5FD /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFCB118158D9136009AD5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFCB127158D9136009AD5FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BFCB119158D9136009AD5FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BFCB0F6158D9135009AD5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFCB10B158D9135009AD5FD /* main.m in Sources */,
+				6BFCB10F158D9135009AD5FD /* AppDelegate.m in Sources */,
+				6BFCB112158D9135009AD5FD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFCB116158D9136009AD5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFCB12A158D9136009AD5FD /* rotatePopOutfromButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BFCB121158D9136009AD5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFCB0F9158D9135009AD5FD /* rotatePopOutfromButton */;
+			targetProxy = 6BFCB120158D9136009AD5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BFCB107158D9135009AD5FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFCB108158D9135009AD5FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BFCB113158D9135009AD5FD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFCB114158D9135009AD5FD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		6BFCB125158D9136009AD5FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFCB126158D9136009AD5FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BFCB12B158D9136009AD5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6BFCB12C158D9136009AD5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BFCB12E158D9136009AD5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
+				INFOPLIST_FILE = "rotatePopOutfromButton/rotatePopOutfromButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BFCB12F158D9136009AD5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
+				INFOPLIST_FILE = "rotatePopOutfromButton/rotatePopOutfromButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BFCB131158D9136009AD5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rotatePopOutfromButton.app/rotatePopOutfromButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
+				INFOPLIST_FILE = "rotatePopOutfromButtonTests/rotatePopOutfromButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6BFCB132158D9136009AD5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rotatePopOutfromButton.app/rotatePopOutfromButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
+				INFOPLIST_FILE = "rotatePopOutfromButtonTests/rotatePopOutfromButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BFCB0F4158D9135009AD5FD /* Build configuration list for PBXProject "rotatePopOutfromButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFCB12B158D9136009AD5FD /* Debug */,
+				6BFCB12C158D9136009AD5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFCB12D158D9136009AD5FD /* Build configuration list for PBXNativeTarget "rotatePopOutfromButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFCB12E158D9136009AD5FD /* Debug */,
+				6BFCB12F158D9136009AD5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BFCB130158D9136009AD5FD /* Build configuration list for PBXNativeTarget "rotatePopOutfromButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFCB131158D9136009AD5FD /* Debug */,
+				6BFCB132158D9136009AD5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BFCB0F1158D9135009AD5FD /* Project object */;
+}
