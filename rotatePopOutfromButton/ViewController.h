@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController
+{
+
+    UIButton *aButton;
+}
+
+@property (strong, nonatomic) IBOutlet UIButton *aButton;
+
+
+-(IBAction)ClickButton:(id)sender;
 
 @end

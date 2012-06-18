@@ -20,6 +20,9 @@
 		6BFCB11F158D9136009AD5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB100158D9135009AD5FD /* Foundation.framework */; };
 		6BFCB127158D9136009AD5FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCB125158D9136009AD5FD /* InfoPlist.strings */; };
 		6BFCB12A158D9136009AD5FD /* rotatePopOutfromButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCB129158D9136009AD5FD /* rotatePopOutfromButtonTests.m */; };
+		6BFCB134158D915C009AD5FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFCB133158D915C009AD5FD /* QuartzCore.framework */; };
+		6BFCB139158D9303009AD5FD /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCB138158D9303009AD5FD /* icon.jpeg */; };
+		6BFCB13B158D930D009AD5FD /* big_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCB13A158D930D009AD5FD /* big_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +40,24 @@
 		6BFCB0FE158D9135009AD5FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6BFCB100158D9135009AD5FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6BFCB102158D9135009AD5FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6BFCB106158D9135009AD5FD /* rotatePopOutfromButton-Info.plist */ = {isa = PBXFileReference; path = "rotatePopOutfromButton-Info.plist"; sourceTree = "<group>"; };
+		6BFCB106158D9135009AD5FD /* rotatePopOutfromButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rotatePopOutfromButton-Info.plist"; sourceTree = "<group>"; };
 		6BFCB108158D9135009AD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BFCB10A158D9135009AD5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6BFCB10C158D9135009AD5FD /* rotatePopOutfromButton-Prefix.pch */ = {isa = PBXFileReference; path = "rotatePopOutfromButton-Prefix.pch"; sourceTree = "<group>"; };
-		6BFCB10D158D9135009AD5FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BFCB10C158D9135009AD5FD /* rotatePopOutfromButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rotatePopOutfromButton-Prefix.pch"; sourceTree = "<group>"; };
+		6BFCB10D158D9135009AD5FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BFCB10E158D9135009AD5FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BFCB110158D9135009AD5FD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6BFCB110158D9135009AD5FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6BFCB111158D9135009AD5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BFCB114158D9135009AD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		6BFCB11B158D9136009AD5FD /* rotatePopOutfromButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotatePopOutfromButtonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFCB11C158D9136009AD5FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6BFCB124158D9136009AD5FD /* rotatePopOutfromButtonTests-Info.plist */ = {isa = PBXFileReference; path = "rotatePopOutfromButtonTests-Info.plist"; sourceTree = "<group>"; };
+		6BFCB124158D9136009AD5FD /* rotatePopOutfromButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rotatePopOutfromButtonTests-Info.plist"; sourceTree = "<group>"; };
 		6BFCB126158D9136009AD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6BFCB128158D9136009AD5FD /* rotatePopOutfromButtonTests.h */ = {isa = PBXFileReference; path = rotatePopOutfromButtonTests.h; sourceTree = "<group>"; };
+		6BFCB128158D9136009AD5FD /* rotatePopOutfromButtonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotatePopOutfromButtonTests.h; sourceTree = "<group>"; };
 		6BFCB129158D9136009AD5FD /* rotatePopOutfromButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rotatePopOutfromButtonTests.m; sourceTree = "<group>"; };
+		6BFCB133158D915C009AD5FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6BFCB138158D9303009AD5FD /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpeg; sourceTree = "<group>"; };
+		6BFCB13A158D930D009AD5FD /* big_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = big_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFCB134158D915C009AD5FD /* QuartzCore.framework in Frameworks */,
 				6BFCB0FF158D9135009AD5FD /* UIKit.framework in Frameworks */,
 				6BFCB101158D9135009AD5FD /* Foundation.framework in Frameworks */,
 				6BFCB103158D9135009AD5FD /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +107,7 @@
 		6BFCB0FD158D9135009AD5FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BFCB133158D915C009AD5FD /* QuartzCore.framework */,
 				6BFCB0FE158D9135009AD5FD /* UIKit.framework */,
 				6BFCB100158D9135009AD5FD /* Foundation.framework */,
 				6BFCB102158D9135009AD5FD /* CoreGraphics.framework */,
@@ -111,6 +119,7 @@
 		6BFCB104158D9135009AD5FD /* rotatePopOutfromButton */ = {
 			isa = PBXGroup;
 			children = (
+				6BFCB135158D92D8009AD5FD /* Resources */,
 				6BFCB10D158D9135009AD5FD /* AppDelegate.h */,
 				6BFCB10E158D9135009AD5FD /* AppDelegate.m */,
 				6BFCB110158D9135009AD5FD /* ViewController.h */,
@@ -149,6 +158,15 @@
 				6BFCB125158D9136009AD5FD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BFCB135158D92D8009AD5FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCB13A158D930D009AD5FD /* big_image.jpg */,
+				6BFCB138158D9303009AD5FD /* icon.jpeg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +242,8 @@
 			files = (
 				6BFCB109158D9135009AD5FD /* InfoPlist.strings in Resources */,
 				6BFCB115158D9135009AD5FD /* ViewController.xib in Resources */,
+				6BFCB139158D9303009AD5FD /* icon.jpeg in Resources */,
+				6BFCB13B158D930D009AD5FD /* big_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
 				INFOPLIST_FILE = "rotatePopOutfromButton/rotatePopOutfromButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
 				INFOPLIST_FILE = "rotatePopOutfromButton/rotatePopOutfromButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
 				INFOPLIST_FILE = "rotatePopOutfromButtonTests/rotatePopOutfromButtonTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -407,6 +430,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rotatePopOutfromButton/rotatePopOutfromButton-Prefix.pch";
 				INFOPLIST_FILE = "rotatePopOutfromButtonTests/rotatePopOutfromButtonTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -432,6 +456,7 @@
 				6BFCB12F158D9136009AD5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BFCB130158D9136009AD5FD /* Build configuration list for PBXNativeTarget "rotatePopOutfromButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +465,7 @@
 				6BFCB132158D9136009AD5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

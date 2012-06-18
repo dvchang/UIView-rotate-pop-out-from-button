@@ -11,6 +11,8 @@
 #import "ViewController.h"
 
 @implementation AppDelegate
+@synthesize viewController, window;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
